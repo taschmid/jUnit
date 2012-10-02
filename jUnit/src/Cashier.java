@@ -7,8 +7,7 @@ public class Cashier {
 		// TODO Auto-generated constructor stub
 	}
 
-	public Cashier(int dollars, int quarters, int dimes, int nickels,
-			int pennies) {
+	public Cashier(int dollars, int quarters, int dimes, int nickels, int pennies) {
 		super();
 		this.dollars = dollars;
 		this.quarters = quarters;
@@ -59,8 +58,6 @@ public class Cashier {
 	
 	public int getTotalCents() {
 		return 0;
-	}
-	
 	}
 
 }
